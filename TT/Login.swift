@@ -53,9 +53,9 @@ class Login {
                 "txtInst":"Institute",
                 "InstCode":"JIIT",
                 "UserType":"S",
-                "MemberCode":"16103288",
-                "DATE1":"14-04-1997",
-                "Password":"@F4BTKZ0",
+                "MemberCode":"",
+                "DATE1":"",
+                "Password":"",
                 "BTNSubmit":"Submit",
                 "txtcap":cap
             ]
