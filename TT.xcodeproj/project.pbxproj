@@ -7,14 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06A49B6A4D87B48CE83EDC69 /* Pods_TT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D97CC5DE78E35893856FB9A /* Pods_TT.framework */; };
+		CD104E5D210DE11C003B2ACB /* CustomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD104E5C210DE11C003B2ACB /* CustomBar.swift */; };
+		CD63F220210E2AAC007E9BBE /* AddEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD63F21F210E2AAC007E9BBE /* AddEntry.swift */; };
 		CD6765382107896D00C8C7BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6765372107896D00C8C7BA /* AppDelegate.swift */; };
 		CD67653A2107896D00C8C7BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6765392107896D00C8C7BA /* ViewController.swift */; };
 		CD67653D2107896E00C8C7BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD67653B2107896E00C8C7BA /* Main.storyboard */; };
 		CD67653F2107896E00C8C7BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD67653E2107896E00C8C7BA /* Assets.xcassets */; };
 		CD6765422107896E00C8C7BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6765402107896E00C8C7BA /* LaunchScreen.storyboard */; };
+		CD68C72C210A6FBE00A516E5 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD68C72B210A6FBE00A516E5 /* Loader.swift */; };
+		CD86DEAA21093CF100C86146 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD86DEA921093CF100C86146 /* Login.swift */; };
+		CD86DEAC210947ED00C86146 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD86DEAB210947ED00C86146 /* Cell.swift */; };
+		CD919AA721079B6A00E456F9 /* TimeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD919AA621079B6A00E456F9 /* TimeTable.swift */; };
+		CD9251E62112BB860008647D /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9251E52112BB860008647D /* TextCell.swift */; };
+		CD9251E82112DA600008647D /* TimeTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9251E72112DA600008647D /* TimeTCell.swift */; };
+		CDA9ED00210FC679003F8E13 /* Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA9ECFF210FC679003F8E13 /* Picker.swift */; };
+		CDA9ED0221102707003F8E13 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA9ED0121102707003F8E13 /* Constants.swift */; };
+		CDE97BBD210B7DDC00430475 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE97BBC210B7DDC00430475 /* TableCell.swift */; };
+		CDE97BBF210B87E700430475 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE97BBE210B87E700430475 /* Details.swift */; };
+		CDEFD3AE21097CD6001CCF04 /* CellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEFD3AD21097CD6001CCF04 /* CellData.swift */; };
+		CDEFD3B02109AE7D001CCF04 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEFD3AF2109AE7D001CCF04 /* Circle.swift */; };
+		CDFBA3792107D5A6003E2F5B /* Attendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFBA3782107D5A6003E2F5B /* Attendance.swift */; };
+		CDFBA37B2107D6BD003E2F5B /* Seating.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFBA37A2107D6BD003E2F5B /* Seating.swift */; };
+		CDFBA37D2107D6DC003E2F5B /* Webkiosk.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFBA37C2107D6DC003E2F5B /* Webkiosk.swift */; };
+		CDFBA37F2107D6F4003E2F5B /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFBA37E2107D6F4003E2F5B /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D97CC5DE78E35893856FB9A /* Pods_TT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98272859E4779BBDBB01DFB1 /* Pods-TT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TT/Pods-TT.debug.xcconfig"; sourceTree = "<group>"; };
+		CD104E5C210DE11C003B2ACB /* CustomBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBar.swift; sourceTree = "<group>"; };
+		CD63F21F210E2AAC007E9BBE /* AddEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEntry.swift; sourceTree = "<group>"; };
 		CD6765342107896D00C8C7BA /* TT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD6765372107896D00C8C7BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD6765392107896D00C8C7BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +45,23 @@
 		CD67653E2107896E00C8C7BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD6765412107896E00C8C7BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD6765432107896E00C8C7BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD68C72B210A6FBE00A516E5 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		CD86DEA921093CF100C86146 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		CD86DEAB210947ED00C86146 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		CD919AA621079B6A00E456F9 /* TimeTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTable.swift; sourceTree = "<group>"; };
+		CD9251E52112BB860008647D /* TextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		CD9251E72112DA600008647D /* TimeTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTCell.swift; sourceTree = "<group>"; };
+		CDA9ECFF210FC679003F8E13 /* Picker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Picker.swift; sourceTree = "<group>"; };
+		CDA9ED0121102707003F8E13 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CDE97BBC210B7DDC00430475 /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		CDE97BBE210B87E700430475 /* Details.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		CDEFD3AD21097CD6001CCF04 /* CellData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellData.swift; sourceTree = "<group>"; };
+		CDEFD3AF2109AE7D001CCF04 /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Circle.swift; path = ../../../Downloads/CircularLoaderLBTA/CircularLoaderLBTA/Circle.swift; sourceTree = "<group>"; };
+		CDFBA3782107D5A6003E2F5B /* Attendance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attendance.swift; sourceTree = "<group>"; };
+		CDFBA37A2107D6BD003E2F5B /* Seating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seating.swift; sourceTree = "<group>"; };
+		CDFBA37C2107D6DC003E2F5B /* Webkiosk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webkiosk.swift; sourceTree = "<group>"; };
+		CDFBA37E2107D6F4003E2F5B /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		F6CBB619E61CFD291F0289CB /* Pods-TT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TT.release.xcconfig"; path = "Pods/Target Support Files/Pods-TT/Pods-TT.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +69,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A49B6A4D87B48CE83EDC69 /* Pods_TT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19CD237A3171CF75BB1B177C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98272859E4779BBDBB01DFB1 /* Pods-TT.debug.xcconfig */,
+				F6CBB619E61CFD291F0289CB /* Pods-TT.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CD67652B2107896D00C8C7BA = {
 			isa = PBXGroup;
 			children = (
 				CD6765362107896D00C8C7BA /* TT */,
 				CD6765352107896D00C8C7BA /* Products */,
+				19CD237A3171CF75BB1B177C /* Pods */,
+				F43B32B8243BAA975FFB84E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +106,64 @@
 		CD6765362107896D00C8C7BA /* TT */ = {
 			isa = PBXGroup;
 			children = (
+				CDEFD3AC21097CB3001CCF04 /* Model */,
+				CDEFD3AB21097C79001CCF04 /* Controller */,
+				CD86DEA821093CC000C86146 /* WebKiosk */,
 				CD6765372107896D00C8C7BA /* AppDelegate.swift */,
-				CD6765392107896D00C8C7BA /* ViewController.swift */,
 				CD67653B2107896E00C8C7BA /* Main.storyboard */,
 				CD67653E2107896E00C8C7BA /* Assets.xcassets */,
 				CD6765402107896E00C8C7BA /* LaunchScreen.storyboard */,
 				CD6765432107896E00C8C7BA /* Info.plist */,
 			);
 			path = TT;
+			sourceTree = "<group>";
+		};
+		CD86DEA821093CC000C86146 /* WebKiosk */ = {
+			isa = PBXGroup;
+			children = (
+				CD86DEA921093CF100C86146 /* Login.swift */,
+			);
+			name = WebKiosk;
+			sourceTree = "<group>";
+		};
+		CDEFD3AB21097C79001CCF04 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD6765392107896D00C8C7BA /* ViewController.swift */,
+				CD919AA621079B6A00E456F9 /* TimeTable.swift */,
+				CDFBA3782107D5A6003E2F5B /* Attendance.swift */,
+				CDFBA37A2107D6BD003E2F5B /* Seating.swift */,
+				CDFBA37C2107D6DC003E2F5B /* Webkiosk.swift */,
+				CDFBA37E2107D6F4003E2F5B /* Settings.swift */,
+				CDE97BBE210B87E700430475 /* Details.swift */,
+				CD63F21F210E2AAC007E9BBE /* AddEntry.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CDEFD3AC21097CB3001CCF04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD86DEAB210947ED00C86146 /* Cell.swift */,
+				CDEFD3AD21097CD6001CCF04 /* CellData.swift */,
+				CDEFD3AF2109AE7D001CCF04 /* Circle.swift */,
+				CD68C72B210A6FBE00A516E5 /* Loader.swift */,
+				CDE97BBC210B7DDC00430475 /* TableCell.swift */,
+				CD104E5C210DE11C003B2ACB /* CustomBar.swift */,
+				CDA9ECFF210FC679003F8E13 /* Picker.swift */,
+				CDA9ED0121102707003F8E13 /* Constants.swift */,
+				CD9251E52112BB860008647D /* TextCell.swift */,
+				CD9251E72112DA600008647D /* TimeTCell.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F43B32B8243BAA975FFB84E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D97CC5DE78E35893856FB9A /* Pods_TT.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD6765462107896E00C8C7BA /* Build configuration list for PBXNativeTarget "TT" */;
 			buildPhases = (
+				12682330EB3B39225724E8F0 /* [CP] Check Pods Manifest.lock */,
 				CD6765302107896D00C8C7BA /* Sources */,
 				CD6765312107896D00C8C7BA /* Frameworks */,
 				CD6765322107896D00C8C7BA /* Resources */,
+				3ADC51C786A6F5C829465325 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +236,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12682330EB3B39225724E8F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ADC51C786A6F5C829465325 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TT/Pods-TT-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TT/Pods-TT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD6765302107896D00C8C7BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDFBA37D2107D6DC003E2F5B /* Webkiosk.swift in Sources */,
+				CD9251E62112BB860008647D /* TextCell.swift in Sources */,
+				CDA9ED00210FC679003F8E13 /* Picker.swift in Sources */,
 				CD67653A2107896D00C8C7BA /* ViewController.swift in Sources */,
+				CDFBA37F2107D6F4003E2F5B /* Settings.swift in Sources */,
+				CD9251E82112DA600008647D /* TimeTCell.swift in Sources */,
+				CDFBA37B2107D6BD003E2F5B /* Seating.swift in Sources */,
+				CD63F220210E2AAC007E9BBE /* AddEntry.swift in Sources */,
+				CD919AA721079B6A00E456F9 /* TimeTable.swift in Sources */,
+				CDEFD3B02109AE7D001CCF04 /* Circle.swift in Sources */,
+				CD104E5D210DE11C003B2ACB /* CustomBar.swift in Sources */,
+				CD86DEAA21093CF100C86146 /* Login.swift in Sources */,
+				CD86DEAC210947ED00C86146 /* Cell.swift in Sources */,
+				CD68C72C210A6FBE00A516E5 /* Loader.swift in Sources */,
+				CDE97BBD210B7DDC00430475 /* TableCell.swift in Sources */,
+				CDE97BBF210B87E700430475 /* Details.swift in Sources */,
 				CD6765382107896D00C8C7BA /* AppDelegate.swift in Sources */,
+				CDFBA3792107D5A6003E2F5B /* Attendance.swift in Sources */,
+				CDEFD3AE21097CD6001CCF04 /* CellData.swift in Sources */,
+				CDA9ED0221102707003F8E13 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +424,9 @@
 		};
 		CD6765472107896E00C8C7BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98272859E4779BBDBB01DFB1 /* Pods-TT.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GVV5727X24;
 				INFOPLIST_FILE = TT/Info.plist;
@@ -274,7 +439,9 @@
 		};
 		CD6765482107896E00C8C7BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6CBB619E61CFD291F0289CB /* Pods-TT.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GVV5727X24;
 				INFOPLIST_FILE = TT/Info.plist;
@@ -304,6 +471,7 @@
 				CD6765482107896E00C8C7BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
