@@ -1,3 +1,5 @@
 # JIIT-Attendance
 Attendance and Time Table for JIIT on iOS
-![Alt Text](/screenshots/IMG_E0481.JPG?raw=true&s=50 "Time Table")
+<img src="/screenshots/IMG_E0483.JPG?raw=true" height="426" width="240">
+<img src="/screenshots/IMG_E0482.JPG?raw=true" height="426" width="240">
+<img src="/screenshots/IMG_E0481.JPG?raw=true" height="426" width="240">
